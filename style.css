@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.staatliches-regular {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px
+}
+
+h1 {
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  border: 3px solid;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: -1px 9px 17px 0px rgba(0,0,0,0.49);
+}
+article {
+  float: left;
+  background-color: white;
+  margin: 0px 20px;
+  margin-top: 20px;
+  width: calc(100% / 3 - 6px - 40px);
+  height: 100px auto;
+  display-flow: root;
+  text-align: center;
+  border: 3px solid;
+ 
+}
+article:hover{
+ box-shadow: -1px 9px 23px 7px rgba(0,0,0,0.49); 
+}
+section {
+  width: 80%;
+  margin: 0px auto;
+  display: flow-root;
+  background-color: #FF96A9; 
+  height: 670px;
+  margin-top: 35px;
+  padding: 35px;
+  border: 3px solid black;
+  box-shadow: -1px 14px 17px 2px rgba(0,0,0,0.49);
+}
+footer > p{
+  margin-top: 35px;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 35px;
+  margin-left: 8%;
+  float: left;
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+ 
+}
+footer{
+  background: #ADBABD;
+background: linear-gradient(156deg,rgba(173, 186, 189, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(173, 186, 189, 1) 100%);
+  display: flow-root;
+  margin-top: 40px;
+  
+}
+footer > a{
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: right;
+  background-color: white;
+  margin: 0px 30px;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+.last{
+  margin-right: 10%;
+}
+article > img {
+ width: 100%;
+ height: 424px;
+ object-fit: cover;
+ object-position:50% 5%;
+}
+button{
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+footer > a > i{
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  padding: 10px 0px;
+  color: #ADBABD;
+}
+i:hover{
+  color:black;
+  background-color: #7DCE82;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 11px 11px 39px 7px rgba(0,0,0,0.25);
+}
+body{
+  margin: 0;
+  background: #c261a8;
+background: radial-gradient(circle,rgba(194, 97, 168, 1) 0%, rgba(199, 149, 87, 1) 50%, rgba(232, 107, 199, 1) 100%);
+}
+article > a > button{
+  display: block;
+  margin: 20px auto;
+  width: 77%;
+  border-radius: 40px;
+  border: 3px solid black;
+  cursor: pointer;
+background: linear-gradient(156deg,rgba(173, 186, 189, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(173, 186, 189, 1) 100%);
+  height: 50px;
+  font-family: outfit;
+  font-weight: 700;
+  font-size: 20px;
+}
+article > a > button:hover{
+  background: radial-gradient(circle,rgba(194, 97, 168, 1) 0%, rgba(199, 149, 87, 1) 50%, rgba(232, 107, 199, 1) 100%);
+  font-weight: 700;
+  box-shadow: 2px 21px 50px 7px rgba(0,0,0,0.34);
+}
+article > p {
+  font-family: outfit;
+  font-style: italic;
+}
+article > a{
+  text-decoration: none;
+}
